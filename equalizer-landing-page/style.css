@@ -97,12 +97,17 @@ header {
 }
 
 .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
   height: 3.75rem;
   width: 20.75rem;
   border: 0;
   border-radius: 0.75rem;
   font-size: 1.125rem;
   font-weight: 700;
+  text-decoration: none;
 }
 
 .btn-dark {
