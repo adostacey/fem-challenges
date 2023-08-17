@@ -27,7 +27,7 @@ body {
 .wrapper {
   margin: 0 auto;
   width: 400px;
-  background-image: url(/assets/bg-main-mobile.png);
+  background-image: url(./assets/bg-main-mobile.png);
   background-attachment: fixed;
   background-position: 75px -200px;
   background-repeat: no-repeat;
@@ -61,7 +61,7 @@ header {
   flex-direction: column;
   align-items: center;
   border-radius: 20px;
-  background-image: url(/assets/bg-pattern-2.svg);
+  background-image: url(./assets/bg-pattern-2.svg);
   background-repeat: no-repeat;
   background-position: top;
 }
