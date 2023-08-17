@@ -30,6 +30,18 @@ body {
 img {
   border-radius: 10px;
 }
+/* solution to vertical center card and keep 
+attribution at bottome of page
+credit:
+https://www.frontendmentor.io/profile/4orter
+https://www.frontendmentor.io/profile/IryDev
+*/
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
 
 .card {
   padding: 1rem 1rem 2rem;
