@@ -6,6 +6,8 @@
   --clr-accent-1: #66e2dc;
   --clr-accent-2: #ffb964;
 
+  --clr-neutral-100: #fcfaf9;
+
   --clr-font-dark: #fcfaf9;
   --clr-font-light: #191826;
 }
@@ -28,6 +30,7 @@ body {
   margin: 0 auto;
   width: 400px;
   background-image: url(./assets/bg-main-mobile.png);
+  background-color: var(--clr-neutral-100);
   background-attachment: fixed;
   background-position: 75px -200px;
   background-repeat: no-repeat;
