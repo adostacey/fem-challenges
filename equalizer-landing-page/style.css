@@ -33,20 +33,26 @@ body {
   background-repeat: no-repeat;
 }
 
-header {
-  margin: 3rem 0;
-}
-
 h1 {
+  margin-bottom: 1rem;
   font-size: 2.5rem;
   font-weight: 700;
-  line-height: 1;
+  line-height: 1.25;
 }
 
 h2 {
   font-size: 2rem;
   font-weight: 700;
   line-height: 3.5rem;
+}
+
+header {
+  padding: 2rem;
+}
+
+.hero {
+  margin-bottom: 10rem;
+  padding-inline: 2rem;
 }
 
 .cta-cards {
