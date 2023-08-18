@@ -24,16 +24,15 @@ html {
 
 body {
   font-family: "IBM Plex Sans", sans-serif;
+  background-image: url(./assets/bg-main-mobile.png);
+  background-color: var(--clr-neutral-100);
+  background-position: right -200px;
+  background-repeat: no-repeat;
 }
 
 .wrapper {
   margin: 0 auto;
-  width: 400px;
-  background-image: url(./assets/bg-main-mobile.png);
-  background-color: var(--clr-neutral-100);
-  background-attachment: fixed;
-  background-position: 75px -200px;
-  background-repeat: no-repeat;
+  /* width: 400px; */
 }
 
 a {
