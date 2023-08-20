@@ -40,6 +40,13 @@ section.cards {
   padding-inline: 1rem;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
