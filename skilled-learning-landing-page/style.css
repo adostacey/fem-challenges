@@ -62,18 +62,20 @@ p .body--small {
 }
 
 .gradient-1 {
-  background: linear-gradient(var(--gradient-1));
+  background: linear-gradient(0deg, var(--gradient-1));
   color: var(--clr-neutral-100);
 }
 
 .gradient-2 {
-  background: linear-gradient(var(--gradient-2));
+  background: linear-gradient(0deg, var(--gradient-2));
   color: var(--clr-neutral-100);
 }
 .btn {
   border-radius: 100rem;
   background-color: var(--clr-neutral-900);
   color: var(--clr-neutral-100);
+  text-decoration: none;
+  padding: 1rem 2rem;
 }
 
 .btn:hover {
