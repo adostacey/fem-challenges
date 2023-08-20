@@ -61,6 +61,15 @@ p .body--small {
   font-weight: 500;
 }
 
+.gradient-1 {
+  background: linear-gradient(var(--gradient-1));
+  color: var(--clr-neutral-100);
+}
+
+.gradient-2 {
+  background: linear-gradient(var(--gradient-2));
+  color: var(--clr-neutral-100);
+}
 .btn {
   border-radius: 100rem;
   background-color: var(--clr-neutral-900);
@@ -71,18 +80,7 @@ p .body--small {
   background-color: var(--clr-neutral-500);
 }
 
-.btn--grad-1 {
-  background-color: linear-gradient(var(--gradient-1));
-}
-
-.btn--grad-1:hover {
-  opacity: 0.8;
-}
-
-.btn--grad-2 {
-  background-color: linear-gradient(var(--gradient-2));
-}
-
-.btn--grad-2:hover {
+.btn.gradient-1:hover,
+.btn.gradient-2:hover {
   opacity: 0.8;
 }
