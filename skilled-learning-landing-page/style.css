@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap");
+
+:root {
+  --clr-neutral-100: #ffffff;
+  --clr-neutral-300: #83869a;
+  --clr-neutral-500: #666ca3;
+  --clr-neutral-900: #13183f;
+
+  --clr-primary-500: #ffa7c3;
+  --clr-primary-700: #f74780;
+
+  --gradient-1: #f02aa6, #ff6f48;
+  --gradient-2: #4851ff, #f02aa6;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 800;
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.25;
+}
+
+h2 {
+  font-size: 2.5rem;
+  line-height: 1.275;
+}
+
+h3 {
+  font-size: 2rem;
+  line-height: 1.25;
+}
+
+h4 {
+  font-size: 1.5rem;
+  line-height: 1.16;
+}
+
+p .body--med {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+}
+
+p .body--small {
+  line-height: 1.75;
+  font-weight: 500;
+}
+
+.btn {
+  border-radius: 100rem;
+  background-color: var(--clr-neutral-900);
+  color: var(--clr-neutral-100);
+}
+
+.btn:hover {
+  background-color: var(--clr-neutral-500);
+}
+
+.btn--grad-1 {
+  background-color: linear-gradient(var(--gradient-1));
+}
+
+.btn--grad-1:hover {
+  opacity: 0.8;
+}
+
+.btn--grad-2 {
+  background-color: linear-gradient(var(--gradient-2));
+}
+
+.btn--grad-2:hover {
+  opacity: 0.8;
+}
