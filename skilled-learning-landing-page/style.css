@@ -40,6 +40,14 @@ section.cards {
   padding-inline: 1rem;
 }
 
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--clr-neutral-900);
+  padding: 2rem 1rem;
+}
+
 .hero--card {
   display: flex;
   flex-direction: column;
