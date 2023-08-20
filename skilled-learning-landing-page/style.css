@@ -21,6 +21,20 @@
 
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
+  background-position: fixed;
+  background: linear-gradient(
+    0deg,
+    var(--clr-neutral-500),
+    5%,
+    var(--clr-neutral-100)
+  );
+}
+
+section.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 2rem;
+  padding-inline: 1rem;
 }
 
 h1,
@@ -50,15 +64,21 @@ h4 {
   line-height: 1.16;
 }
 
-p .body--med {
+p {
+  margin-bottom: 1rem;
+}
+
+p.body--med {
   font-size: 1.125rem;
   line-height: 1.5rem;
   font-weight: 700;
+  color: var(--clr-neutral-300);
 }
 
-p .body--small {
+p.body--small {
   line-height: 1.75;
   font-weight: 500;
+  color: var(--clr-neutral-300);
 }
 
 .gradient-1 {
@@ -73,7 +93,6 @@ p .body--small {
 .btn {
   border-radius: 100rem;
   background-color: var(--clr-neutral-900);
-  color: var(--clr-neutral-100);
   text-decoration: none;
   padding: 1rem 2rem;
 }
@@ -85,4 +104,24 @@ p .body--small {
 .btn.gradient-1:hover,
 .btn.gradient-2:hover {
   opacity: 0.8;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  padding: 1rem;
+  background-color: var(--clr-neutral-100);
+  border-radius: 0.5rem;
+}
+
+.card img {
+  width: 3rem;
+  margin-top: -2.5rem;
+}
+
+.card a {
+  color: var(--clr-primary-700);
+  text-decoration: none;
+  font-weight: 700;
 }
