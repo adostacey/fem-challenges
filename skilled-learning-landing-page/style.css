@@ -24,6 +24,7 @@
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
   background-position: fixed;
+  overflow-x: hidden;
   background: linear-gradient(
     0deg,
     var(--clr-neutral-500),
@@ -55,19 +56,32 @@ footer {
   padding: 2rem 1rem;
 }
 
-.hero--card {
+section.hero-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-card--text {
   display: flex;
   flex-direction: column;
   padding: 1rem;
 }
 
-.hero--card .btn {
+.hero-card--text .btn {
   align-self: start;
 }
 
-.hero--image {
+.hero-card--image-mobile {
   display: block;
   margin: 0 auto;
+}
+
+.hero-card--image-tablet {
+  display: none;
+}
+
+.hero-card--image-desktop {
+  display: none;
 }
 
 h1,
@@ -171,9 +185,29 @@ p.body--small {
     font-size: 3.5rem;
   }
 
+  section.hero-card {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .hero-card--text {
+    flex-basis: 55%;
+    flex-shrink: 0;
+  }
+
   section.cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 1rem;
+  }
+
+  .hero-card--image-mobile {
+    display: none;
+  }
+
+  .hero-card--image-tablet {
+    display: block;
+    margin-top: -10rem;
+    margin-left: -3rem;
   }
 }
